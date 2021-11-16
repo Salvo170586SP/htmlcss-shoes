@@ -15,14 +15,28 @@ img{
 }
 
 /* SEZIONI VH */
-.first{
+.article{
     height: 100vh;
-    background-color: red;
     position: relative;
 }
 
+.red{
+    background-color: red;
+    color: yellow;
+}
 
-.first-img{
+.green{
+    background-color: green;
+    color: yellowgreen;
+}
+
+.yellow{
+    background-color: yellow;
+    color: green;
+}
+
+
+.first{
     width: 700px;
     height: 500px;
     position: absolute;
@@ -32,3 +46,11 @@ img{
 }
 
 
+
+.first-text-shoes{
+    display: inline-block;
+    height: 100px;
+    font-size: 30px;
+    text-align: center;
+    font-weight: 800;
+}
