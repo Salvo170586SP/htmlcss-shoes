@@ -1,0 +1,84 @@
+/* GENERAL */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+      font-family: 'Anton', sans-serif;
+      font-family: 'Roboto', sans-serif;
+      font-family: 'Rubik Mono One', sans-serif;
+  }
+  
+  img {
+    width: 100%;
+  }
+  
+  /* SEZIONE NAV MENU */
+  
+  .main-menu {
+    position: fixed;
+    z-index: 1;
+    right: 0;
+    padding: 30px 0;
+  }
+  
+  .main-menu ul {
+    list-style-type: none;
+  }
+  
+  .main-menu ul li {
+    display: inline-block;
+    padding: 20px;
+  }
+  
+  .main-menu ul li a {
+    text-decoration: none;
+    background-color: white;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+    line-height: 50px;
+    font-weight: 800;
+    color: black;
+  }
+  
+  /* SEZIONI VH */
+  .article {
+    height: 100vh;
+    position: relative;
+  }
+  
+  .red {
+    background-color: red;
+    color: yellow;
+  }
+  
+  .green {
+    background-color: green;
+    color: yellowgreen;
+  }
+  
+  .yellow {
+    background-color: yellow;
+    color: green;
+  }
+  
+  .first {
+    width: 700px;
+    height: 500px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .first-text-shoes {
+    display: inline-block;
+    font-size: 30px;
+    text-align: center;
+  }
+  
