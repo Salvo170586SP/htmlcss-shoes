@@ -49,6 +49,7 @@ img {
   line-height: 50px;
   font-weight: 800;
   color: black;
+  box-shadow: black -2px 1px 8px 0;
 }
 
 /* SEZIONI VH */
